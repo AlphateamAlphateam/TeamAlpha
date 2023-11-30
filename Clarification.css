@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+
+*{    
+    font-family: 'Noto Sans', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration: none;
+}
+
+html{
+    font-size: 72%;
+    background-color: #E8F1FF;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+body{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    position: fixed;
+}
+
+.header{
+    padding: 2rem 6%;
+    position: fixed;
+    width:auto;
+    top: 20px; left: 10px; right: 10px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background:  #146A5D;
+    border-radius: 20px;
+    height: 67px;
+}
+
+.header .logo img{
+    border-radius: 10px;
+    width: 215px;
+    height: 46px;
+    margin-left: 66px;
+}
+
+.header h1{
+    color: #ffffff;
+    text-align: left;
+    font: 700 40px "Inter", sans-serif;
+    position: fixed;
+    margin-left: 496px;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ellipse-1{
+    background: #e8f1ff;
+    border-style: solid;
+    border-color: #146a5d;
+    border-width: 2px;
+    width: 256px;
+    height: 241px;
+    position: relative;
+    border-radius: 50%;
+    margin-left: 129px;
+    margin-top: 0px;
+}
+
+.user{
+    border-radius: 101.5px;
+    width: 204px;
+    height: 203px;
+    margin-left: 24px;
+    margin-top: 20px;
+    position: fixed;
+}
+
+.content {
+    text-align: left;
+    position: relative;
+    margin-left: 33px;
+    margin-top: 10px;
+}
+
+.content-span1 {
+    color: #cd5553;
+    font: 400 26px "Irish Grover", sans-serif;
+}
+
+.content-span2 {
+    color: #000000;
+    font: 400 26px "Irish Grover", sans-serif;
+}
+
+.rectangle-1 {
+  background: #fdfdfd;
+  border-radius: 10px 10px 45px 45px;
+  border-style: solid;
+  border-color: #146a5d;
+  border-width: 1px;
+  width: 514px;
+  height: 467px;
+  position: fixed;
+  margin-left: 1379px;
+  margin-top: 288px;
+}
+
+.input-type1{
+  background: #fdfdfd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 338px;
+  height: 66px;
+  position: fixed;
+  margin-top: -60px;
+  margin-left: 154px;
+  padding-left: 10px;
+}
+
+
+.input-type2{
+  background: #fdfdfd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 338px;
+  height: 66px;
+  position: fixed;
+  margin-top: 29px;
+  margin-left: 307px;
+  padding-left: 10px;
+}
+
+.input-type3{
+  background: #fdfdfd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 338px;
+  height: 66px;
+  position: fixed;
+  margin-top: 124px;
+  margin-left: 154px;
+  padding-left: 10px;
+}
+.rectangle-2 {
+  background: #fdfdfd;
+  border-radius: 45px;
+  border-style: solid;
+  border-color: #146a5d;
+  border-width: 1px;
+  width: 514px;
+  height: 111px;
+  position: fixed;
+  margin-top: 266px;
+  margin-left: 141px;
+}
+
+.btn-send {
+  background: #f3d6ac;
+  border-radius: 83px;
+  width: 126px;
+  height: 35px;
+  color: #cd5553;
+  text-align: center;
+  font: 700 26px "Inter", sans-serif;
+  cursor: pointer;
+  margin-top: 53px;
+  margin-left: 365px;
+}
+
+.btn{
+  background: #146A5D;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  width: 228px;
+  height: 44px;
+  color: #FFF;
+  font-family: "Inter", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  margin-left: 1765px;
+  margin-top: 850px;
+  position: fixed;
+}
+
+.rectangle-3 {
+  background: #e8f1ff;
+  border-radius: 44px 44px 181px 0px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 514px;
+  height: 191px;
+  position: fixed;
+  margin-top: 560px;
+  margin-left: 100px;
+}
+
+.sub-def{
+  color: #000000;
+  text-align: left;
+  font: 700 19px "Inter", sans-serif;
+  margin-top: 72px;
+  margin-left: 27px;
+}
+
+
+
+
+
+
+
+
+
+
